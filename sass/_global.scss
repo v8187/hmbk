@@ -1,0 +1,48 @@
+/*----------------------------------------------
+ * Test Styles
+ *----------------------------------------------*/
+.test-class {
+  width:3000px;
+}
+
+/*----------------------------------------------
+ * General Styles
+ *----------------------------------------------*/
+.cntrd-inner {
+  width:980px;
+  margin:0 auto;
+  overflow:auto;
+}
+.clear {
+  clear:both;
+  float:none;
+  line-height:1px;
+  border:0 none;
+  padding:0;
+  margin:0;
+}
+.nojs, .ltie9 {
+  font-size:1em;
+  font-weight:bold;
+  background:#FFFDB2;
+  border:1px solid #C1BC24;
+  color:#635030;
+  padding:10px;
+  text-align:center;
+}
+
+.cellSpace {
+  display:table-cell;
+  
+  &:before {
+    content: "\00a0 \00a0";
+  }
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}

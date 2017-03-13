@@ -1,0 +1,265 @@
+/*******************************************
+ * 
+ * Reset Styles
+ *  
+ ******************************************/
+html, body, h1, h2, h3, h4, h5, h6, article, aside, details, del, ins, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary, blockquote, q, th, td, caption, table, div,
+span, object, iframe, p, pre, a, abbr, acronym, address, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, caption, tbody, tfoot, thead, tr, img, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: Arial, Helvetica, sans-serif; }
+
+table {
+  border-collapse: collapse; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  font-size: 10px; }
+
+ul, ol {
+  list-style: none; }
+
+/*----------------------------------------------
+ * Test Styles
+ *----------------------------------------------*/
+.test-class {
+  width: 3000px; }
+
+/*----------------------------------------------
+ * General Styles
+ *----------------------------------------------*/
+.cntrd-inner {
+  width: 980px;
+  margin: 0 auto;
+  overflow: auto; }
+
+.clear {
+  clear: both;
+  float: none;
+  line-height: 1px;
+  border: 0 none;
+  padding: 0;
+  margin: 0; }
+
+.nojs, .ltie9 {
+  font-size: 1em;
+  font-weight: bold;
+  background: #FFFDB2;
+  border: 1px solid #C1BC24;
+  color: #635030;
+  padding: 10px;
+  text-align: center; }
+
+.cellSpace {
+  display: table-cell; }
+  .cellSpace:before {
+    content: "\00a0 \00a0"; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+.lowercase {
+  text-transform: lowercase; }
+
+@media print {
+  table {
+    page-break-after: auto; }
+
+  tr {
+    page-break-inside: avoid;
+    page-break-after: auto; }
+
+  td {
+    page-break-inside: avoid;
+    page-break-after: auto; }
+
+  thead {
+    display: table-header-group; }
+
+  tfoot {
+    display: table-footer-group; } }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */ }
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */ }
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */ }
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */ }
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */ }
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */ }
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */ }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */ }
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */ }
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */ }
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */ }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles */ }
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */ }
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */ }
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */ }
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */ }
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */ }
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */ }
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */ }
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */ }
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */ }
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */ }
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */ }
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+  /* Styles */ }
+/*----------------------------------------------
+ * Buttons Styles
+ *----------------------------------------------*/
+[class*="btn-"] {
+  display: inline-block;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 35px;
+  padding: 0 10px;
+  cursor: pointer; }
+
+.btn-general {
+  background: #EAEAEA;
+  border-color: #ADADAD;
+  color: #3F3F3F; }
+  .btn-general:hover, .btn-general:active {
+    background: #D3D3D3;
+    border-color: #878787; }
+
+.btn-primary {
+  background: #5f9eaf;
+  border-color: #386470;
+  color: #fff; }
+  .btn-primary:hover, .btn-primary:active {
+    background: #386470;
+    border-color: #27464e; }
+
+.btn-alert {
+  background: #EF9B9D;
+  border-color: #C65F5F;
+  color: #661516; }
+  .btn-alert:hover, .btn-alert:active {
+    background: #ED7B7D;
+    border-color: #AA3A3A; }
+
+body {
+  color: #333;
+  overflow-x: hidden; }
+
+h1 {
+  background: #386470;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  padding: 0 20px; }
+
+nav {
+  font-size: 17px; }
+  nav ul li {
+    display: inline-block;
+    width: 33%;
+    line-height: 35px; }
+    nav ul li a {
+      color: #386470;
+      font-weight: bold;
+      display: block;
+      padding: 0 20px;
+      text-align: center; }
+      nav ul li a.active {
+        background: #92bdc9;
+        color: #fff;
+        border-radius: 0 50% 50% 0;
+        border: 1px solid #386470; }
+
+form {
+  padding: 20px;
+  font-size: 13px;
+  line-height: 18px; }
+  form h2 {
+    color: #386470;
+    font-size: 16px;
+    line-height: 35px;
+    margin-bottom: 10px; }
+    form h2 .btns-wrapper {
+      font-size: 13px;
+      display: line-block;
+      float: right; }
+      form h2 .btns-wrapper .btn-primary {
+        line-height: 25px;
+        margin-left: 20px;
+        font-weight: normal; }
+  form fieldset {
+    border: 1px solid #ccc;
+    padding: 15px; }
+    form fieldset .inputs-row {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      margin-bottom: 15px; }
+      form fieldset .inputs-row input {
+        color: #333;
+        box-sizing: border-box;
+        outline: 0 none;
+        font-size: 14px;
+        line-height: 30px;
+        padding: 0 20px;
+        width: 100%; }
+        form fieldset .inputs-row input.has-amount {
+          width: 70%; }
+        form fieldset .inputs-row input.amount {
+          width: 30%; }
+
+/*# sourceMappingURL=hmbk.css.map */

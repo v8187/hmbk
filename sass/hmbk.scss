@@ -1,0 +1,101 @@
+@import "_constants.scss";
+@import "_reset.scss";
+@import "_global.scss";
+@import "_media_queries.scss";
+@import "_buttons.scss";
+
+body {
+	color: $COLOR_TEXT;
+	overflow-x: hidden;
+}
+
+h1 {
+  background: $COLOR_PRIMARY;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+
+nav {
+  font-size: 17px;
+  
+  ul {
+    
+    li {
+      display: inline-block;
+      width: 33%;
+      line-height: 35px;
+      
+       a {
+         color: $COLOR_PRIMARY;
+         font-weight: bold;
+         display: block;
+         padding: 0 20px;
+         text-align: center;
+         
+         &.active {
+           background: lighten($COLOR_PRIMARY, 35%);
+           color: #fff;
+           border-radius: 0 50% 50% 0;
+           border: 1px solid $COLOR_PRIMARY;
+         }
+       }
+    }
+  }
+}
+
+form {
+  padding: 20px;
+  font-size: 13px;
+  line-height: 18px;
+  
+  h2 {
+    color: $COLOR_PRIMARY;
+    font-size: 16px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    
+    .btns-wrapper {
+      font-size: 13px;
+      display: line-block;
+      float: right;
+      
+      .btn-primary {
+        line-height: 25px;
+        margin-left: 20px;
+        font-weight: normal;
+      }
+    } 
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    
+    .inputs-row {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      
+      input {
+        color: #333;
+        box-sizing: border-box;
+        outline: 0 none;
+        font-size: 14px;
+        line-height: 30px;
+        padding: 0 20px;
+        width: 100%;
+        
+        &.has-amount {
+          width: 70%;
+        }
+        
+        &.amount {
+          width: 30%;
+        }
+      }
+    }
+    
+  }
+}

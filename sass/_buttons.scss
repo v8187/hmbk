@@ -1,0 +1,50 @@
+/*----------------------------------------------
+ * Buttons Styles
+ *----------------------------------------------*/
+[class*="btn-"] {
+    
+  display: inline-block;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 35px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.btn-general {
+  background: #EAEAEA;
+  border-color: #ADADAD;
+  color: #3F3F3F;
+  
+  &:hover,
+  &:active {
+    background: #D3D3D3;
+    border-color: #878787;
+  }
+}
+
+.btn-primary {
+  background: lighten($COLOR_PRIMARY, 20%);
+  border-color: $COLOR_PRIMARY;
+  color: #fff;
+  
+  &:hover,
+  &:active {
+    background: $COLOR_PRIMARY;
+    border-color: darken($COLOR_PRIMARY, 10%);
+  }
+}
+
+.btn-alert {
+  background: #EF9B9D;
+  border-color: #C65F5F;
+  color: #661516;
+  
+  &:hover,
+  &:active {
+    background: #ED7B7D;
+    border-color: #AA3A3A;
+  }
+}

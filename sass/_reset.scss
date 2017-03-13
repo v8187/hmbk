@@ -1,0 +1,41 @@
+/*******************************************
+ * 
+ * Reset Styles
+ *  
+ ******************************************/
+
+html, body, h1, h2, h3, h4, h5, h6, article, aside, details, del, ins, figcaption, figure,
+ footer, header, hgroup, menu, nav, section, summary, blockquote, q, th, td, caption, table, div,
+ span, object, iframe, p, pre, a, abbr, acronym, address, dl, dt, dd, ol, ul, li, fieldset, form, 
+ label, legend, caption, tbody, tfoot, thead, tr, img, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: $FONT;  
+}
+html, body {
+  
+}
+table {
+  border-collapse:collapse;
+}
+a {
+  text-decoration:none;
+}
+img {
+  max-width:100%;
+  vertical-align:middle;
+  overflow:hidden;
+  font-size:10px;
+}
+ul, ol {
+  list-style:none;
+}
