@@ -17,7 +17,7 @@ label, legend, caption, tbody, tfoot, thead, tr, img, input {
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Lucida Calligraphy, Arial, Helvetica, sans-serif; }
 
 table {
   border-collapse: collapse; }
@@ -176,90 +176,109 @@ iPad 3
   background: #EAEAEA;
   border-color: #ADADAD;
   color: #3F3F3F; }
-  .btn-general:hover, .btn-general:active {
+  .btn-general:hover, .btn-general:active, .btn-general:focus {
     background: #D3D3D3;
     border-color: #878787; }
 
 .btn-primary {
-  background: #5f9eaf;
-  border-color: #386470;
+  background: #3c91ec;
+  border-color: #115eb1;
   color: #fff; }
-  .btn-primary:hover, .btn-primary:active {
-    background: #386470;
-    border-color: #27464e; }
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background: #115eb1;
+    border-color: #0d4582; }
 
 .btn-alert {
   background: #EF9B9D;
   border-color: #C65F5F;
   color: #661516; }
-  .btn-alert:hover, .btn-alert:active {
+  .btn-alert:hover, .btn-alert:active, .btn-alert:focus {
     background: #ED7B7D;
     border-color: #AA3A3A; }
 
 body {
-  color: #333;
+  color: #222;
   overflow-x: hidden; }
 
 h1 {
-  background: #386470;
-  color: #fff;
+  color: #115eb1;
   font-size: 20px;
-  line-height: 40px;
-  padding: 0 20px; }
+  line-height: 55px;
+  padding: 0 20px 0 80px; }
 
-nav {
-  font-size: 17px; }
-  nav ul li {
-    display: inline-block;
-    width: 33%;
-    line-height: 35px; }
-    nav ul li a {
-      color: #386470;
-      font-weight: bold;
-      display: block;
-      padding: 0 20px;
-      text-align: center; }
-      nav ul li a.active {
-        background: #92bdc9;
-        color: #fff;
-        border-radius: 0 50% 50% 0;
-        border: 1px solid #386470; }
+form h2 {
+  color: #115eb1;
+  font-size: 16px;
+  line-height: 35px;
+  margin-bottom: 10px; }
+  form h2 .btns-wrapper {
+    font-size: 13px;
+    display: line-block;
+    float: right; }
+    form h2 .btns-wrapper .btn-primary {
+      line-height: 25px;
+      margin-left: 20px;
+      font-weight: normal; }
 
-form {
-  padding: 20px;
-  font-size: 13px;
-  line-height: 18px; }
-  form h2 {
-    color: #386470;
-    font-size: 16px;
-    line-height: 35px;
-    margin-bottom: 10px; }
-    form h2 .btns-wrapper {
-      font-size: 13px;
-      display: line-block;
-      float: right; }
-      form h2 .btns-wrapper .btn-primary {
-        line-height: 25px;
-        margin-left: 20px;
-        font-weight: normal; }
-  form fieldset {
-    border: 1px solid #ccc;
-    padding: 15px; }
-    form fieldset .inputs-row {
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      margin-bottom: 15px; }
-      form fieldset .inputs-row input {
-        color: #333;
-        box-sizing: border-box;
-        outline: 0 none;
-        font-size: 14px;
-        line-height: 30px;
-        padding: 0 20px;
-        width: 100%; }
-        form fieldset .inputs-row input.has-amount {
-          width: 70%; }
-        form fieldset .inputs-row input.amount {
-          width: 30%; }
+html, body,
+#root,
+#appWrapper {
+  height: 100%; }
+
+#appWrapper {
+  overflow: hidden;
+  background: linear-gradient(180deg, transparent 53px, #ff6666 54px, transparent 54px, transparent 59px, #ff6666 59px, transparent 60px), linear-gradient(90deg, transparent 59px, #ff6666 60px, transparent 60px, transparent 65px, #ff6666 66px, transparent 66px), linear-gradient(180deg, #fff 0px, #fff 1px, #fff 60px, transparent 61px), repeating-linear-gradient(180deg, #6666ff 0px, transparent 1px, transparent 29px); }
+
+#contentSection {
+  margin: 4px 0 0 4px;
+  height: calc(100% - 60px); }
+  #contentSection form {
+    height: 100%; }
+    #contentSection form .fields-wrapper {
+      height: calc(100% - 65px);
+      overflow: auto; }
+  #contentSection .inputs-row {
+    height: 25px;
+    padding: 2px 0 2px 51px; }
+    #contentSection .inputs-row .btn-general {
+      font-size: 10px;
+      line-height: 13px;
+      vertical-align: middle;
+      width: 15px;
+      padding: 0;
+      margin-right: 15px;
+      margin-left: -30px; }
+  #contentSection h2, #contentSection input {
+    box-sizing: border-box; }
+  #contentSection h2, #contentSection form {
+    padding: 0 15px; }
+  #contentSection h2 {
+    font-size: 14px;
+    line-height: 29px;
+    font-weight: normal;
+    margin-left: 60px; }
+  #contentSection input[type=text] {
+    font-size: 13px;
+    line-height: 22px;
+    width: calc(50% - 40px);
+    margin-right: 20px;
+    outline: 0 none; }
+    #contentSection input[type=text]:last-child {
+      margin-right: 0;
+      width: 40px; }
+    #contentSection input[type=text]:focus, #contentSection input[type=text]:hover {
+      border-bottom: 1px solid #6aabf1; }
+
+#bottomBar {
+  padding: 7px 0; }
+  #bottomBar [class*="btn-"] {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 21px;
+    vertical-align: middle; }
+  #bottomBar .btn-general {
+    font-size: 24px;
+    padding: 0 5px; }
+  #bottomBar .btn-primary {
+    float: right; }
 
 /*# sourceMappingURL=hmbk.css.map */
