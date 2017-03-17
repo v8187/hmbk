@@ -39,13 +39,15 @@ class FormRow extends RC {
 				type: 'text',
 				required: true,
 				title: 'Who spent?',
-				value: this.props.spentBy }),
+				//value: this.props.spentBy 
+		}),
 			ce('input', { 
 				placeholder: 'Spent for', 
 				type: 'text',
 				required: true,
 				title: 'Enter expenses done for?',
-				value: this.props.spentOn }),
+				//value: this.props.spentOn
+		}),
 			ce('input', { 
 				placeholder: 'Amount', 
 				type: 'text',
@@ -54,7 +56,8 @@ class FormRow extends RC {
 				pattern: '^\\d{1,5}(\\.\\d{1,2})?$', 
 				required: true,
 				title: 'How much was spent?',
-				value: this.props.amount })
+				//value: this.props.amount
+		})
 		);
 	}
 }
